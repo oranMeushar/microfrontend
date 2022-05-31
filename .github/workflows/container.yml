@@ -9,7 +9,7 @@ on:
     branches:
       - master 
     paths: 
-      - 'clients/container/** ' #only run this workflow when we make a change inside of the container
+      - 'clients/container/**' #only run this workflow when we make a change inside of the container
 defaults:
   run:
     working-directory:  clients/container
