@@ -6,8 +6,8 @@ name: deploy-app
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches:
-      - master 
+    branches: [ master ]
+
     paths: 
       - 'clients/container/**' #only run this workflow when we make a change inside of the container
 defaults:
